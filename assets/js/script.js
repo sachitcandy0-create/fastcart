@@ -218,22 +218,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 })
 
 /*=====================
-<<<<<<< HEAD
-<<<<<<< HEAD
-   10. Cookie Bar Js
-   ==========================*/
-$(".ok-button").click(function () {
-    $(".cookie-bar-box").addClass("hide");
-});
-
-/*=====================
-   11. Image To Background Js
-=======
    10. Image To Background Js
->>>>>>> 7e77a7e (new changes added)
-=======
-   10. Image To Background Js
->>>>>>> 7e77a7e (new changes added)
    ==========================*/
 $(".bg-top").parent().addClass("b-top");
 $(".bg-bottom").parent().addClass("b-bottom");
