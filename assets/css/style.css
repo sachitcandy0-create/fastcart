@@ -46865,4 +46865,57 @@ header .header-nav .header-nav-left .dropdown-category-2+.category-dropdown .cat
     object-fit: cover
 }
 
+footer .main-footer .footer-contain a.view-all {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: var(--theme-color);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+footer .main-footer .footer-contain a.view-all:hover {
+    text-decoration-color: var(--theme-color);
+    opacity: .85
+}
+
+footer .main-footer .footer-contain a.view-all i {
+    font-size: 14px;
+    margin-left: 6px;
+    display: inline-block;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+footer .main-footer .footer-contain a.view-all:hover i {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px)
+}
+
+header .navbar-nav .nav-link.dropdown-toggle i.fa-angle-down {
+    font-size: 14px;
+    margin-left: 5px;
+    vertical-align: middle
+}
+
+footer .sub-footer .social-link ul li a svg {
+    width: 18px;
+    height: 18px;
+    fill: var(--theme-color);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+footer .sub-footer .social-link ul li:hover a svg {
+    fill: var(--theme-color);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+
+footer .sub-footer .social-link ul li a i {
+    color: var(--theme-color)
+}
+
 /*# sourceMappingURL=style.css.map */
