@@ -7589,7 +7589,7 @@ template {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url("https://themes.pixelstrap.com/fastkart/assets/fonts/fa-regular-400.woff2") format("woff2"), url("https://themes.pixelstrap.com/fastkart/assets/fonts/fa-regular-400.ttf") format("truetype")
+    src: url("../fonts/fa-regular-400.woff2") format("woff2")
 }
 
 .far,
@@ -7614,7 +7614,7 @@ template {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url("https://themes.pixelstrap.com/fastkart/assets/fonts/fa-brands-400.woff2") format("woff2"), url("https://themes.pixelstrap.com/fastkart/assets/fonts/fa-brands-400.ttf") format("truetype")
+    src: url("../fonts/fa-brands-400.woff2") format("woff2")
 }
 
 .fab,
@@ -9511,7 +9511,7 @@ template {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url("https://themes.pixelstrap.com/fastkart/assets/fonts/fa-solid-900.woff2") format("woff2"), url("https://themes.pixelstrap.com/fastkart/assets/fonts/fa-solid-900.ttf") format("truetype")
+    src: url("../fonts/fa-solid-900.woff2") format("woff2")
 }
 
 .fas,
@@ -12382,8 +12382,8 @@ template {
 
 @font-face {
     font-family: "slick";
-    src: url("fonts/slick.html");
-    src: url("fonts/slickd41d.html?#iefix") format("embedded-opentype"), url("fonts/slick-2.html") format("woff"), url("fonts/slick-3.html") format("truetype"), url("fonts/slick-4.html#slick") format("svg");
+    src: url("fonts/slick.eot");
+    src: url("fonts/slick.eot?#iefix") format("embedded-opentype"), url("fonts/slick.woff") format("woff"), url("fonts/slick.ttf") format("truetype"), url("fonts/slick.svg#slick") format("svg");
     font-weight: normal;
     font-style: normal
 }
@@ -18074,7 +18074,7 @@ body.rtl .product-section-box .review-box .review-people .review-list li .people
     height: 13px;
     top: 9px;
     left: -11px;
-    background-image: url(https://themes.pixelstrap.com/fastkart/assets/svg/bag.svg);
+    background-image: url("../svg/bag.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center
