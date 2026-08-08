@@ -23129,76 +23129,6 @@ header .header-nav .header-nav-left .category-dropdown .category-list li a i {
     }
 }
 
-header .header-nav .header-nav-left .category-dropdown .category-list li.view-all-list {
-    margin-top: 4px;
-    padding-top: 14px;
-    border-top: 1px dashed rgba(0, 0, 0, .12)
-}
-
-header .header-nav .header-nav-left .category-dropdown .category-list li .view-all-category {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 12px 16px;
-    background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(217, 159, 70, .14)), color-stop(100%, rgba(217, 159, 70, 0)));
-    background: -webkit-linear-gradient(90deg, rgba(217, 159, 70, .14), rgba(217, 159, 70, 0));
-    background: linear-gradient(90deg, rgba(217, 159, 70, .14), rgba(217, 159, 70, 0));
-    border: 1px solid rgba(217, 159, 70, .35);
-    border-radius: 8px;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
-}
-
-header .header-nav .header-nav-left .category-dropdown .category-list li .view-all-category h6 {
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: .3px;
-    color: var(--theme-color);
-    margin-bottom: 0;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
-}
-
-header .header-nav .header-nav-left .category-dropdown .category-list li .view-all-category h6:before {
-    display: none
-}
-
-header .header-nav .header-nav-left .category-dropdown .category-list li .view-all-category i {
-    margin-left: 8px;
-    font-size: 14px;
-    color: var(--theme-color);
-    -webkit-transition: -webkit-transform .3s ease-in-out;
-    transition: transform .3s ease-in-out
-}
-
-header .header-nav .header-nav-left .category-dropdown .category-list li .view-all-category:hover {
-    background: var(--theme-color);
-    border-color: var(--theme-color)
-}
-
-header .header-nav .header-nav-left .category-dropdown .category-list li .view-all-category:hover h6,
-header .header-nav .header-nav-left .category-dropdown .category-list li .view-all-category:hover i {
-    color: #fff
-}
-
-header .header-nav .header-nav-left .category-dropdown .category-list li .view-all-category:hover i {
-    -webkit-transform: translateX(4px);
-    transform: translateX(4px)
-}
-
-[dir=rtl] header .header-nav .header-nav-left .category-dropdown .category-list li .view-all-category:hover i {
-    -webkit-transform: rotate(180deg) translateX(4px);
-    transform: rotate(180deg) translateX(4px)
-}
-
 @media(max-width: 767px) {
     header .header-nav .header-nav-right {
         display: none
@@ -46986,31 +46916,6 @@ footer .sub-footer .social-link ul li:hover a svg {
 
 footer .sub-footer .social-link ul li a i {
     color: var(--theme-color)
-}
-
-/* Original brand-colored social media icons */
-footer .sub-footer .social-link ul li a.social-facebook svg {
-    fill: #1877f2
-}
-
-footer .sub-footer .social-link ul li a.social-facebook:hover svg {
-    fill: #166fe5
-}
-
-footer .sub-footer .social-link ul li a.social-instagram svg {
-    fill: #e4405f
-}
-
-footer .sub-footer .social-link ul li a.social-instagram:hover svg {
-    fill: #d427a6
-}
-
-footer .sub-footer .social-link ul li a.social-tiktok svg {
-    fill: #000000
-}
-
-footer .sub-footer .social-link ul li a.social-tiktok:hover svg {
-    fill: #010101
 }
 
 /*# sourceMappingURL=style.css.map */
